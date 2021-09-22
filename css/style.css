@@ -219,7 +219,7 @@ header{
   text-align: center;
   line-height: 80px;
   font-weight: bolder;
-  font-size: 3vh;
+  font-size: 1vw;
 }
 
 .stars{
@@ -230,4 +230,59 @@ header{
   background-repeat: no-repeat;
 
 }
+
+/* FOOTER */
+
+footer{
+  background-color: #23272a;
+}
+
+.top-footer{
+  border-bottom: 1px solid #7289da;
+  color: white;
+}
+
+#special{
+  padding-right: 5vw;
+}
+
+#special li:first-of-type{
+  font-size: 30px;
+}
+
+#special li i{
+  padding-right: 2vw;
+}
+
+.foot-menu ul{
+  float: left;
+  padding-right: 3vw;
+  margin: 50px auto;
+  line-height: 40px;
+  list-style: none;
+}
+
+.foot-menu ul li:first-of-type{
+  font-weight: bolder;
+  color: #7289da;
+}
+
+#registrati{
+  float: right;
+}
+
+.footer{
+  padding: 2vh 0 10vh;
+}
+
+footer .btn{
+  background-color: #8ea1e2;
+  color: white;
+}
+
+
+
+
+
+
 

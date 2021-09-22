@@ -1,0 +1,193 @@
+/* generle rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #23272a;
+}
+
+header{
+  height: 80px;
+}
+
+
+.container{
+  width: 90%;
+  max-width: 1180px; 
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.btn{
+  font-size: 14px;
+  color: black;
+  padding: 10px 15px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.btn.big{
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.btn.black{
+  background-color: black;
+  color: white;
+}
+
+.btn:hover{
+  color:cornflowerblue;
+}
+
+
+
+/* HEADER */
+header{
+  height: 80px;
+  background-color: #3161E0;
+  line-height: 80px;
+}
+
+/* Logo */
+.logo, .main-nav{
+  float: left;
+}
+
+.logo img{
+  vertical-align: middle;
+}
+
+.main-nav{
+  width: calc(100% - 202px);
+  text-align: center;
+}
+
+
+/* Menu */
+.main-nav ul{
+  list-style: none;
+}
+
+.main-nav ul li{
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.main-nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main-nav ul li a:hover{
+  text-decoration: underline;
+}
+
+#accedi{
+  float: right;
+}
+
+/* Jumbo */
+
+.jumbotron{
+  height: 547px;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+}
+
+.jumbotron .container{
+  max-width: 800px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.jumbotron h1{
+  font-size: 53px;
+  margin-bottom: 40px;
+}
+
+.jumbotron p{
+  margin-bottom: 30px;
+  line-height: 35px;
+}
+
+.jumbotron .btn:first-of-type{
+  margin-right: 20px;
+}
+
+/* MAIN */
+
+.box{
+
+}
+
+.box.white{
+  background-color: white;
+}
+
+.box.white .container img{
+  float: left;
+  width: 60%;
+}
+
+.box.white .container .paragraph{
+  float: right;
+  width: 30%;
+  margin-top: 38px;
+  padding-right: 5px;
+}
+
+.box.gray{
+  background-color: #f6f6f6;
+}
+
+.box.gray .container img{
+  float: right;
+  width: 60%;
+}
+
+.box.gray .container .paragraph{
+  float: left;
+  width: 30%;
+  margin-top: 38px;
+  padding-left: 5px;
+}
+
+.box.middle{
+  background-color: #f6f6f6 ;
+}
+
+.box.middle .container{
+  background-color: yellow;
+}
+
+.box.middle .container .center-box{
+  width: 90%;
+
+}
+
+.box.middle .container .center-box img, .box.middle .container .center-box p{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box.middle .container .center-box{
+
+  width: 90%;
+  margin: 0 auto;
+  
+}

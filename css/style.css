@@ -170,24 +170,64 @@ header{
   background-color: #f6f6f6 ;
 }
 
-.box.middle .container{
-  background-color: yellow;
-}
-
 .box.middle .container .center-box{
   width: 90%;
 
 }
 
-.box.middle .container .center-box img, .box.middle .container .center-box p{
+.box.middle .container .center-box{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.center-box img{
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-.box.middle .container .center-box{
+.center-box .top h2{
+  padding-top: 5vh;
+}
 
-  width: 90%;
+.center-box p, .center-box .top h2{
+  width: 85%;
   margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+
+.center-btn{
+  width: 90%;
+  height: 15vh;
+  position:relative;
+  margin: 0 auto;
+}
+
+.center-btn .btn.big{
+  background-color: #8ea1e2;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
   
 }
+
+.stars p{
+  text-align: center;
+  line-height: 80px;
+  font-weight: bolder;
+  font-size: 3vh;
+}
+
+.stars{
+  width: 40%;
+  margin: 0 auto;
+  background-image: url('../img/stars.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+

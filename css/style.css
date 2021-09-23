@@ -219,7 +219,7 @@ header{
   text-align: center;
   line-height: 80px;
   font-weight: bolder;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 .stars{
@@ -265,6 +265,11 @@ footer{
 .foot-menu ul li:first-of-type{
   font-weight: bolder;
   color: #7289da;
+}
+
+.language img{
+  width: 25px;
+  padding-right: 5px;
 }
 
 #registrati{
